@@ -188,6 +188,7 @@ ek_new = np.zeros((1,len(solution)), dtype = int)
 ek_new[0,a] = 1
 
     #### Derivation of weakest bus. ####
+    #아직 수정중#
 Weak_bus = []
 for i in range(1,len(Bus_num)):
     for k in range(1+Num_PV,len(Bus_num)):
